@@ -5,14 +5,14 @@ import { types } from '../types/types';
 const initialState = {
     events: [{
         id: new Date().getTime(),
-        title: 'Cumpleaños del jefe',
+        title: 'Enviar reportes',
         start: moment().toDate(),
         end: moment().add( 2, 'hours' ).toDate(),
         bgcolor: '#fafafa',
-        notes: 'Comprar el pastel',
+        notes: 'Terminar indicadores y enviar reportes',
         user: {
             _id: '123',
-            name: 'Fernando'
+            name: 'Giancarlo'
         }
     }],
     activeEvent: null
